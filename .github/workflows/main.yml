@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USERNAME }} 
+        user: projet-ic
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
         
